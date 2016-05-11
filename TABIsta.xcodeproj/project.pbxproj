@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223BB9273345AD86B5135356 /* Pods_TABIstaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128CBD8977CBCAEF0F5314DE /* Pods_TABIstaTests.framework */; };
+		70863A38BC492E6829CABDF8 /* Pods_TABIstaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83485F228DFDE451771BF64 /* Pods_TABIstaUITests.framework */; };
+		8294A4D349511F5F001FC120 /* Pods_TABIsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D168FBE66633283F652CF7C8 /* Pods_TABIsta.framework */; };
 		88478C8B1CE3458C0028F81A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88478C8A1CE3458C0028F81A /* AppDelegate.swift */; };
 		88478C8D1CE3458C0028F81A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88478C8C1CE3458C0028F81A /* ViewController.swift */; };
 		88478C901CE3458C0028F81A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88478C8E1CE3458C0028F81A /* Main.storyboard */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		128CBD8977CBCAEF0F5314DE /* Pods_TABIstaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TABIstaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F0A4039AA700494990060C /* Pods-TABIstaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABIstaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TABIstaTests/Pods-TABIstaTests.release.xcconfig"; sourceTree = "<group>"; };
+		32C93111CA15BEBFF379DF61 /* Pods-TABIsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABIsta.release.xcconfig"; path = "Pods/Target Support Files/Pods-TABIsta/Pods-TABIsta.release.xcconfig"; sourceTree = "<group>"; };
+		6A98740629BE937F935A8A48 /* Pods-TABIsta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABIsta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TABIsta/Pods-TABIsta.debug.xcconfig"; sourceTree = "<group>"; };
+		78190077CE5D6F94EA47FC2E /* Pods-TABIstaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABIstaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TABIstaUITests/Pods-TABIstaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		88478C871CE3458C0028F81A /* TABIsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TABIsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88478C8A1CE3458C0028F81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88478C8C1CE3458C0028F81A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		88478CA61CE3458C0028F81A /* TABIstaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TABIstaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88478CAA1CE3458C0028F81A /* TABIstaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TABIstaUITests.swift; sourceTree = "<group>"; };
 		88478CAC1CE3458C0028F81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D060A43459D9E43C573313 /* Pods-TABIstaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABIstaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TABIstaUITests/Pods-TABIstaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D168FBE66633283F652CF7C8 /* Pods_TABIsta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TABIsta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83485F228DFDE451771BF64 /* Pods_TABIstaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TABIstaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8F75DC991B9F9CD9091BBC /* Pods-TABIstaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABIstaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TABIstaTests/Pods-TABIstaTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8294A4D349511F5F001FC120 /* Pods_TABIsta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223BB9273345AD86B5135356 /* Pods_TABIstaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70863A38BC492E6829CABDF8 /* Pods_TABIstaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72152B81AB85767FAD3AC02B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D168FBE66633283F652CF7C8 /* Pods_TABIsta.framework */,
+				128CBD8977CBCAEF0F5314DE /* Pods_TABIstaTests.framework */,
+				D83485F228DFDE451771BF64 /* Pods_TABIstaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88478C7E1CE3458C0028F81A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				88478C9E1CE3458C0028F81A /* TABIstaTests */,
 				88478CA91CE3458C0028F81A /* TABIstaUITests */,
 				88478C881CE3458C0028F81A /* Products */,
+				CB3FA2181C1D93AE575F895A /* Pods */,
+				72152B81AB85767FAD3AC02B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = TABIstaUITests;
 			sourceTree = "<group>";
 		};
+		CB3FA2181C1D93AE575F895A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A98740629BE937F935A8A48 /* Pods-TABIsta.debug.xcconfig */,
+				32C93111CA15BEBFF379DF61 /* Pods-TABIsta.release.xcconfig */,
+				FB8F75DC991B9F9CD9091BBC /* Pods-TABIstaTests.debug.xcconfig */,
+				16F0A4039AA700494990060C /* Pods-TABIstaTests.release.xcconfig */,
+				78190077CE5D6F94EA47FC2E /* Pods-TABIstaUITests.debug.xcconfig */,
+				A9D060A43459D9E43C573313 /* Pods-TABIstaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88478CAF1CE3458C0028F81A /* Build configuration list for PBXNativeTarget "TABIsta" */;
 			buildPhases = (
+				8A394C8F40A9C7C0BDFEAF8D /* Check Pods Manifest.lock */,
 				88478C831CE3458C0028F81A /* Sources */,
 				88478C841CE3458C0028F81A /* Frameworks */,
 				88478C851CE3458C0028F81A /* Resources */,
+				4C720D2005E09C69B56D449F /* Embed Pods Frameworks */,
+				6E3323A76211342C94EB1C2C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88478CB21CE3458C0028F81A /* Build configuration list for PBXNativeTarget "TABIstaTests" */;
 			buildPhases = (
+				6AB38AF6322187ED6E5E7BF0 /* Check Pods Manifest.lock */,
 				88478C971CE3458C0028F81A /* Sources */,
 				88478C981CE3458C0028F81A /* Frameworks */,
 				88478C991CE3458C0028F81A /* Resources */,
+				E58716A76F66C3B3549AF65C /* Embed Pods Frameworks */,
+				FEE0CD5A8F58D5523CF76740 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88478CB51CE3458C0028F81A /* Build configuration list for PBXNativeTarget "TABIstaUITests" */;
 			buildPhases = (
+				15D4A39B45B3665DEA4FD8CC /* Check Pods Manifest.lock */,
 				88478CA21CE3458C0028F81A /* Sources */,
 				88478CA31CE3458C0028F81A /* Frameworks */,
 				88478CA41CE3458C0028F81A /* Resources */,
+				D1BBB66240D2EAE839D88792 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15D4A39B45B3665DEA4FD8CC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C720D2005E09C69B56D449F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TABIsta/Pods-TABIsta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AB38AF6322187ED6E5E7BF0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E3323A76211342C94EB1C2C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TABIsta/Pods-TABIsta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A394C8F40A9C7C0BDFEAF8D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1BBB66240D2EAE839D88792 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TABIstaUITests/Pods-TABIstaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E58716A76F66C3B3549AF65C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TABIstaTests/Pods-TABIstaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEE0CD5A8F58D5523CF76740 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TABIstaTests/Pods-TABIstaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		88478C831CE3458C0028F81A /* Sources */ = {
@@ -397,9 +568,11 @@
 		};
 		88478CB01CE3458C0028F81A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A98740629BE937F935A8A48 /* Pods-TABIsta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TABIsta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.dip.TABIsta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,9 +581,11 @@
 		};
 		88478CB11CE3458C0028F81A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C93111CA15BEBFF379DF61 /* Pods-TABIsta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TABIsta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.dip.TABIsta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,6 +594,7 @@
 		};
 		88478CB31CE3458C0028F81A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8F75DC991B9F9CD9091BBC /* Pods-TABIstaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TABIstaTests/Info.plist;
@@ -431,6 +607,7 @@
 		};
 		88478CB41CE3458C0028F81A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F0A4039AA700494990060C /* Pods-TABIstaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TABIstaTests/Info.plist;
@@ -443,6 +620,7 @@
 		};
 		88478CB61CE3458C0028F81A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78190077CE5D6F94EA47FC2E /* Pods-TABIstaUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TABIstaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +632,7 @@
 		};
 		88478CB71CE3458C0028F81A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D060A43459D9E43C573313 /* Pods-TABIstaUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TABIstaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +661,7 @@
 				88478CB11CE3458C0028F81A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88478CB21CE3458C0028F81A /* Build configuration list for PBXNativeTarget "TABIstaTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +670,7 @@
 				88478CB41CE3458C0028F81A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88478CB51CE3458C0028F81A /* Build configuration list for PBXNativeTarget "TABIstaUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +679,7 @@
 				88478CB71CE3458C0028F81A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
