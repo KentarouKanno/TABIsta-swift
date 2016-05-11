@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88478C8B1CE3458C0028F81A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88478C8A1CE3458C0028F81A /* AppDelegate.swift */; };
+		88478C8D1CE3458C0028F81A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88478C8C1CE3458C0028F81A /* ViewController.swift */; };
+		88478C901CE3458C0028F81A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88478C8E1CE3458C0028F81A /* Main.storyboard */; };
+		88478C921CE3458C0028F81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88478C911CE3458C0028F81A /* Assets.xcassets */; };
+		88478C951CE3458C0028F81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88478C931CE3458C0028F81A /* LaunchScreen.storyboard */; };
+		88478CA01CE3458C0028F81A /* TABIstaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88478C9F1CE3458C0028F81A /* TABIstaTests.swift */; };
+		88478CAB1CE3458C0028F81A /* TABIstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88478CAA1CE3458C0028F81A /* TABIstaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88478C9C1CE3458C0028F81A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88478C7F1CE3458C0028F81A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88478C861CE3458C0028F81A;
+			remoteInfo = TABIsta;
+		};
+		88478CA71CE3458C0028F81A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88478C7F1CE3458C0028F81A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88478C861CE3458C0028F81A;
+			remoteInfo = TABIsta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88478C871CE3458C0028F81A /* TABIsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TABIsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88478C8A1CE3458C0028F81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88478C8C1CE3458C0028F81A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88478C8F1CE3458C0028F81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88478C911CE3458C0028F81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88478C941CE3458C0028F81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88478C961CE3458C0028F81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88478C9B1CE3458C0028F81A /* TABIstaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TABIstaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88478C9F1CE3458C0028F81A /* TABIstaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TABIstaTests.swift; sourceTree = "<group>"; };
+		88478CA11CE3458C0028F81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88478CA61CE3458C0028F81A /* TABIstaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TABIstaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88478CAA1CE3458C0028F81A /* TABIstaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TABIstaUITests.swift; sourceTree = "<group>"; };
+		88478CAC1CE3458C0028F81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88478C841CE3458C0028F81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88478C981CE3458C0028F81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88478CA31CE3458C0028F81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88478C7E1CE3458C0028F81A = {
+			isa = PBXGroup;
+			children = (
+				88478C891CE3458C0028F81A /* TABIsta */,
+				88478C9E1CE3458C0028F81A /* TABIstaTests */,
+				88478CA91CE3458C0028F81A /* TABIstaUITests */,
+				88478C881CE3458C0028F81A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88478C881CE3458C0028F81A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88478C871CE3458C0028F81A /* TABIsta.app */,
+				88478C9B1CE3458C0028F81A /* TABIstaTests.xctest */,
+				88478CA61CE3458C0028F81A /* TABIstaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88478C891CE3458C0028F81A /* TABIsta */ = {
+			isa = PBXGroup;
+			children = (
+				88478C8A1CE3458C0028F81A /* AppDelegate.swift */,
+				88478C8C1CE3458C0028F81A /* ViewController.swift */,
+				88478C8E1CE3458C0028F81A /* Main.storyboard */,
+				88478C911CE3458C0028F81A /* Assets.xcassets */,
+				88478C931CE3458C0028F81A /* LaunchScreen.storyboard */,
+				88478C961CE3458C0028F81A /* Info.plist */,
+			);
+			path = TABIsta;
+			sourceTree = "<group>";
+		};
+		88478C9E1CE3458C0028F81A /* TABIstaTests */ = {
+			isa = PBXGroup;
+			children = (
+				88478C9F1CE3458C0028F81A /* TABIstaTests.swift */,
+				88478CA11CE3458C0028F81A /* Info.plist */,
+			);
+			path = TABIstaTests;
+			sourceTree = "<group>";
+		};
+		88478CA91CE3458C0028F81A /* TABIstaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88478CAA1CE3458C0028F81A /* TABIstaUITests.swift */,
+				88478CAC1CE3458C0028F81A /* Info.plist */,
+			);
+			path = TABIstaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88478C861CE3458C0028F81A /* TABIsta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88478CAF1CE3458C0028F81A /* Build configuration list for PBXNativeTarget "TABIsta" */;
+			buildPhases = (
+				88478C831CE3458C0028F81A /* Sources */,
+				88478C841CE3458C0028F81A /* Frameworks */,
+				88478C851CE3458C0028F81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TABIsta;
+			productName = TABIsta;
+			productReference = 88478C871CE3458C0028F81A /* TABIsta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88478C9A1CE3458C0028F81A /* TABIstaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88478CB21CE3458C0028F81A /* Build configuration list for PBXNativeTarget "TABIstaTests" */;
+			buildPhases = (
+				88478C971CE3458C0028F81A /* Sources */,
+				88478C981CE3458C0028F81A /* Frameworks */,
+				88478C991CE3458C0028F81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88478C9D1CE3458C0028F81A /* PBXTargetDependency */,
+			);
+			name = TABIstaTests;
+			productName = TABIstaTests;
+			productReference = 88478C9B1CE3458C0028F81A /* TABIstaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88478CA51CE3458C0028F81A /* TABIstaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88478CB51CE3458C0028F81A /* Build configuration list for PBXNativeTarget "TABIstaUITests" */;
+			buildPhases = (
+				88478CA21CE3458C0028F81A /* Sources */,
+				88478CA31CE3458C0028F81A /* Frameworks */,
+				88478CA41CE3458C0028F81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88478CA81CE3458C0028F81A /* PBXTargetDependency */,
+			);
+			name = TABIstaUITests;
+			productName = TABIstaUITests;
+			productReference = 88478CA61CE3458C0028F81A /* TABIstaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88478C7F1CE3458C0028F81A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "DIP Corporation";
+				TargetAttributes = {
+					88478C861CE3458C0028F81A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					88478C9A1CE3458C0028F81A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 88478C861CE3458C0028F81A;
+					};
+					88478CA51CE3458C0028F81A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 88478C861CE3458C0028F81A;
+					};
+				};
+			};
+			buildConfigurationList = 88478C821CE3458C0028F81A /* Build configuration list for PBXProject "TABIsta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88478C7E1CE3458C0028F81A;
+			productRefGroup = 88478C881CE3458C0028F81A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88478C861CE3458C0028F81A /* TABIsta */,
+				88478C9A1CE3458C0028F81A /* TABIstaTests */,
+				88478CA51CE3458C0028F81A /* TABIstaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88478C851CE3458C0028F81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88478C951CE3458C0028F81A /* LaunchScreen.storyboard in Resources */,
+				88478C921CE3458C0028F81A /* Assets.xcassets in Resources */,
+				88478C901CE3458C0028F81A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88478C991CE3458C0028F81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88478CA41CE3458C0028F81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88478C831CE3458C0028F81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88478C8D1CE3458C0028F81A /* ViewController.swift in Sources */,
+				88478C8B1CE3458C0028F81A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88478C971CE3458C0028F81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88478CA01CE3458C0028F81A /* TABIstaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88478CA21CE3458C0028F81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88478CAB1CE3458C0028F81A /* TABIstaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88478C9D1CE3458C0028F81A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88478C861CE3458C0028F81A /* TABIsta */;
+			targetProxy = 88478C9C1CE3458C0028F81A /* PBXContainerItemProxy */;
+		};
+		88478CA81CE3458C0028F81A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88478C861CE3458C0028F81A /* TABIsta */;
+			targetProxy = 88478CA71CE3458C0028F81A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88478C8E1CE3458C0028F81A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88478C8F1CE3458C0028F81A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88478C931CE3458C0028F81A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88478C941CE3458C0028F81A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88478CAD1CE3458C0028F81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88478CAE1CE3458C0028F81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88478CB01CE3458C0028F81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TABIsta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.dip.TABIsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88478CB11CE3458C0028F81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TABIsta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.dip.TABIsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88478CB31CE3458C0028F81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TABIstaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.dip.TABIstaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TABIsta.app/TABIsta";
+			};
+			name = Debug;
+		};
+		88478CB41CE3458C0028F81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TABIstaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.dip.TABIstaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TABIsta.app/TABIsta";
+			};
+			name = Release;
+		};
+		88478CB61CE3458C0028F81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TABIstaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.dip.TABIstaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TABIsta;
+			};
+			name = Debug;
+		};
+		88478CB71CE3458C0028F81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TABIstaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.dip.TABIstaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TABIsta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88478C821CE3458C0028F81A /* Build configuration list for PBXProject "TABIsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88478CAD1CE3458C0028F81A /* Debug */,
+				88478CAE1CE3458C0028F81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88478CAF1CE3458C0028F81A /* Build configuration list for PBXNativeTarget "TABIsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88478CB01CE3458C0028F81A /* Debug */,
+				88478CB11CE3458C0028F81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88478CB21CE3458C0028F81A /* Build configuration list for PBXNativeTarget "TABIstaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88478CB31CE3458C0028F81A /* Debug */,
+				88478CB41CE3458C0028F81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88478CB51CE3458C0028F81A /* Build configuration list for PBXNativeTarget "TABIstaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88478CB61CE3458C0028F81A /* Debug */,
+				88478CB71CE3458C0028F81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88478C7F1CE3458C0028F81A /* Project object */;
+}
