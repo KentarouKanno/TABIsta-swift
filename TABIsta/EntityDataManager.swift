@@ -1,5 +1,5 @@
 //
-//  DataManager.swift
+//  EntityDataManager.swift
 //  TABIsta
 //
 //  Created by System on 2016/05/13.
@@ -8,7 +8,7 @@
 
 import RealmSwift
 
-class DataManager: NSObject {
+class EntityDataManager: NSObject {
     static func getPickupMedia() -> [MediaEntity] {
         let rtn = [MediaEntity(), MediaEntity()]
         return rtn;

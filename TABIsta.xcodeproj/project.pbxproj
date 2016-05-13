@@ -16,8 +16,10 @@
 		88478CA01CE3458C0028F81A /* TABIstaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88478C9F1CE3458C0028F81A /* TABIstaTests.swift */; };
 		88478CAB1CE3458C0028F81A /* TABIstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88478CAA1CE3458C0028F81A /* TABIstaUITests.swift */; };
 		886031E51CE56C8500614A3D /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886031E41CE56C8500614A3D /* ApiManager.swift */; };
-		886031E71CE575C000614A3D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886031E61CE575C000614A3D /* DataManager.swift */; };
+		886031E71CE575C000614A3D /* EntityDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886031E61CE575C000614A3D /* EntityDataManager.swift */; };
 		886031E91CE589AE00614A3D /* MediaEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886031E81CE589AE00614A3D /* MediaEntity.swift */; };
+		886031ED1CE5D9CB00614A3D /* GoogleAnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886031EC1CE5D9CB00614A3D /* GoogleAnalyticsManager.swift */; };
+		886031EF1CE5DBB700614A3D /* ApiDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886031EE1CE5DBB700614A3D /* ApiDataManager.swift */; };
 		888628B91CE493ED004F0E13 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888628B81CE493ED004F0E13 /* SettingViewController.swift */; };
 		888628BB1CE4940F004F0E13 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888628BA1CE4940F004F0E13 /* PhotoDetailViewController.swift */; };
 		888628BF1CE49659004F0E13 /* InquiryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888628BE1CE49659004F0E13 /* InquiryViewController.swift */; };
@@ -69,8 +71,10 @@
 		88478CAA1CE3458C0028F81A /* TABIstaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TABIstaUITests.swift; sourceTree = "<group>"; };
 		88478CAC1CE3458C0028F81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		886031E41CE56C8500614A3D /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
-		886031E61CE575C000614A3D /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		886031E61CE575C000614A3D /* EntityDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityDataManager.swift; sourceTree = "<group>"; };
 		886031E81CE589AE00614A3D /* MediaEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaEntity.swift; sourceTree = "<group>"; };
+		886031EC1CE5D9CB00614A3D /* GoogleAnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAnalyticsManager.swift; sourceTree = "<group>"; };
+		886031EE1CE5DBB700614A3D /* ApiDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiDataManager.swift; sourceTree = "<group>"; };
 		888628B81CE493ED004F0E13 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		888628BA1CE4940F004F0E13 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		888628BE1CE49659004F0E13 /* InquiryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InquiryViewController.swift; sourceTree = "<group>"; };
@@ -237,7 +241,9 @@
 			isa = PBXGroup;
 			children = (
 				886031E41CE56C8500614A3D /* ApiManager.swift */,
-				886031E61CE575C000614A3D /* DataManager.swift */,
+				886031EE1CE5DBB700614A3D /* ApiDataManager.swift */,
+				886031E61CE575C000614A3D /* EntityDataManager.swift */,
+				886031EC1CE5D9CB00614A3D /* GoogleAnalyticsManager.swift */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -567,8 +573,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				888628C31CE497FC004F0E13 /* MainMapViewController.swift in Sources */,
-				886031E71CE575C000614A3D /* DataManager.swift in Sources */,
+				886031ED1CE5D9CB00614A3D /* GoogleAnalyticsManager.swift in Sources */,
+				886031E71CE575C000614A3D /* EntityDataManager.swift in Sources */,
 				886031E51CE56C8500614A3D /* ApiManager.swift in Sources */,
+				886031EF1CE5DBB700614A3D /* ApiDataManager.swift in Sources */,
 				88478C8B1CE3458C0028F81A /* AppDelegate.swift in Sources */,
 				888628C71CE498FC004F0E13 /* AboutViewController.swift in Sources */,
 				888628BB1CE4940F004F0E13 /* PhotoDetailViewController.swift in Sources */,
