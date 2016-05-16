@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Setting View Controller-->
+        <!--Setting-->
         <scene sceneID="dja-fJ-fK4">
             <objects>
-                <viewController id="cjF-Ez-fyV" customClass="SettingViewController" customModule="TABIsta" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Setting" id="cjF-Ez-fyV" customClass="SettingViewController" customModule="TABIsta" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Sj8-3o-OYN"/>
                         <viewControllerLayoutGuide type="bottom" id="QxU-wA-6v3"/>

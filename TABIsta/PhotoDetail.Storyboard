@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Photo Detail View Controller-->
+        <!--PhotoDetail-->
         <scene sceneID="xIR-JY-a9x">
             <objects>
-                <viewController id="UdA-Kl-8KV" customClass="PhotoDetailViewController" customModule="TABIsta" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="PhotoDetail" id="UdA-Kl-8KV" customClass="PhotoDetailViewController" customModule="TABIsta" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NUQ-Mq-jaQ"/>
                         <viewControllerLayoutGuide type="bottom" id="7Cu-hg-bpq"/>

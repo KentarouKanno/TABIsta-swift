@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Inquiry View Controller-->
+        <!--Inquiry-->
         <scene sceneID="Td9-Cc-ug3">
             <objects>
-                <viewController id="LIg-6j-9TO" customClass="InquiryViewController" customModule="TABIsta" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Inquiry" id="LIg-6j-9TO" customClass="InquiryViewController" customModule="TABIsta" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="l1j-8N-PX2"/>
                         <viewControllerLayoutGuide type="bottom" id="Ew6-yP-g6h"/>

@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Photo Pickup View Controller-->
+        <!--PhotoPickup-->
         <scene sceneID="Ydh-A6-xNh">
             <objects>
-                <viewController id="UQT-8e-Tar" customClass="PhotoPickupViewController" customModule="TABIsta" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="PhotoPickup" id="UQT-8e-Tar" customClass="PhotoPickupViewController" customModule="TABIsta" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zYQ-Y8-IZ1"/>
                         <viewControllerLayoutGuide type="bottom" id="6BV-Ai-pog"/>
