@@ -10,8 +10,9 @@ import Alamofire
 import SwiftyJSON
 
 class ApiManager: NSObject {
-    static func getLocationMedia(apiResponse: (responseArticles: [[String: String]]) -> ()) {
-        let articles: [[String: String]] = []
+    // メソッドの引数を追加(呼び出し元にクロージャーで戻します)
+    static func apiRequest(apiResponse: (responseArticles: [MediaEntity]) -> ()) {
+        let articles: [MediaEntity] = []
         apiResponse(responseArticles: articles)
     }
 }
