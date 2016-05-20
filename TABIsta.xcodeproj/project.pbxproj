@@ -15,6 +15,7 @@
 		88478C951CE3458C0028F81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88478C931CE3458C0028F81A /* LaunchScreen.storyboard */; };
 		88478CA01CE3458C0028F81A /* TABIstaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88478C9F1CE3458C0028F81A /* TABIstaTests.swift */; };
 		88478CAB1CE3458C0028F81A /* TABIstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88478CAA1CE3458C0028F81A /* TABIstaUITests.swift */; };
+		885738831CEF16FF00061BEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 885738821CEF16FF00061BEA /* GoogleService-Info.plist */; };
 		886031E51CE56C8500614A3D /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886031E41CE56C8500614A3D /* ApiManager.swift */; };
 		886031E71CE575C000614A3D /* EntityDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886031E61CE575C000614A3D /* EntityDataManager.swift */; };
 		886031E91CE589AE00614A3D /* MediaEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886031E81CE589AE00614A3D /* MediaEntity.swift */; };
@@ -72,6 +73,7 @@
 		88478CA61CE3458C0028F81A /* TABIstaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TABIstaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88478CAA1CE3458C0028F81A /* TABIstaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TABIstaUITests.swift; sourceTree = "<group>"; };
 		88478CAC1CE3458C0028F81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885738821CEF16FF00061BEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		886031E41CE56C8500614A3D /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		886031E61CE575C000614A3D /* EntityDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityDataManager.swift; sourceTree = "<group>"; };
 		886031E81CE589AE00614A3D /* MediaEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaEntity.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				888628AC1CE47373004F0E13 /* Classes */,
 				88478C911CE3458C0028F81A /* Assets.xcassets */,
 				88478C961CE3458C0028F81A /* Info.plist */,
+				885738821CEF16FF00061BEA /* GoogleService-Info.plist */,
 			);
 			path = TABIsta;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 				88478C951CE3458C0028F81A /* LaunchScreen.storyboard in Resources */,
 				888628CD1CE499BB004F0E13 /* PhotoPickup.Storyboard in Resources */,
 				888628D31CE499EB004F0E13 /* About.Storyboard in Resources */,
+				885738831CEF16FF00061BEA /* GoogleService-Info.plist in Resources */,
 				88478C921CE3458C0028F81A /* Assets.xcassets in Resources */,
 				888628D11CE499E1004F0E13 /* Setting.Storyboard in Resources */,
 			);

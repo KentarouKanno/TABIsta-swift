@@ -10,6 +10,9 @@ target 'TABIsta' do
  pod 'Realm'
  pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
  pod 'SVProgressHUD'
+ pod 'Firebase'
+ pod 'Firebase/Core'
+ pod 'Firebase/Messaging'
 end
 
 target 'TABIstaTests' do
