@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="EaD-9u-r3m">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--MainMap-->
@@ -16,12 +16,237 @@
                     <view key="view" contentMode="scaleToFill" id="vUf-of-dNV">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" rotateEnabled="NO" pitchEnabled="NO" showsUserLocation="YES" showsBuildings="NO" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ow9-Jm-Y4C">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </mapView>
+                            <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrR-e2-dd0" userLabel="設定ボタン">
+                                <rect key="frame" x="20" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="8Mf-W8-bNe"/>
+                                    <constraint firstAttribute="height" constant="44" id="xxs-4H-YdQ"/>
+                                </constraints>
+                                <state key="normal" image="MainMap-SettingButton"/>
+                                <connections>
+                                    <action selector="pushButtonMapView:" destination="EaD-9u-r3m" eventType="touchUpInside" id="msK-iM-ngv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2J-J3-2O3" userLabel="グルメボタン">
+                                <rect key="frame" x="536" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Wel-79-drO"/>
+                                    <constraint firstAttribute="width" constant="44" id="b0O-2E-4Fa"/>
+                                </constraints>
+                                <state key="normal" image="MainMap-GenreGourmetOffButton"/>
+                                <connections>
+                                    <action selector="pushButtonMapView:" destination="EaD-9u-r3m" eventType="touchUpInside" id="tDI-dD-8Co"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OsB-rV-BEQ" userLabel="ショッピングボタン">
+                                <rect key="frame" x="536" y="72" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="fwf-9h-hFp"/>
+                                    <constraint firstAttribute="height" constant="44" id="m2I-MO-TMl"/>
+                                </constraints>
+                                <state key="normal" image="MainMap-GenreShoppingOffButton"/>
+                                <connections>
+                                    <action selector="pushButtonMapView:" destination="EaD-9u-r3m" eventType="touchUpInside" id="g3v-V9-YJA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPw-fu-CMg" userLabel="スポットボタン">
+                                <rect key="frame" x="536" y="124" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="PYM-On-1a3"/>
+                                    <constraint firstAttribute="height" constant="44" id="R5R-sZ-9SS"/>
+                                </constraints>
+                                <state key="normal" image="MainMap-GenreSpotOffButton"/>
+                                <connections>
+                                    <action selector="pushButtonMapView:" destination="EaD-9u-r3m" eventType="touchUpInside" id="edR-Sj-2xk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VNZ-o9-x0q" userLabel="現在地ボタン">
+                                <rect key="frame" x="20" y="72" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="06Q-ie-6ZS"/>
+                                    <constraint firstAttribute="width" constant="44" id="HN0-Ii-eDv"/>
+                                </constraints>
+                                <state key="normal" image="MainMap-PresentLocationOffButton"/>
+                                <connections>
+                                    <action selector="pushButtonMapView:" destination="EaD-9u-r3m" eventType="touchUpInside" id="Msh-6p-ppZ"/>
+                                </connections>
+                            </button>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wPo-K4-lcX">
+                                <rect key="frame" x="0.0" y="315" width="260" height="25"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="dqY-wy-86d"/>
+                                </constraints>
+                            </view>
+                            <view tag="200" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aSR-95-ldT" userLabel="つまみ">
+                                <rect key="frame" x="260" y="315" width="80" height="25"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="4IV-B2-DGK"/>
+                                    <constraint firstAttribute="width" constant="80" id="mGJ-qa-r5M"/>
+                                </constraints>
+                            </view>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="phL-bd-Bg4">
+                                <rect key="frame" x="340" y="315" width="260" height="25"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="oQY-5Z-8rp"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XIk-t2-nL4" userLabel="写真一覧マージン">
+                                <rect key="frame" x="0.0" y="340" width="600" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="MjR-zv-3xE"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="KPv-fU-kuD">
+                                <rect key="frame" x="0.0" y="360" width="600" height="240"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="IkX-Hs-WZW"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="XF7-YO-YHH">
+                                    <size key="itemSize" width="179" height="173"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="As4-3g-Unk" customClass="CustomCell" customModule="TABIsta" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="179" height="173"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="179" height="173"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lmr-JQ-iCx" userLabel="写真">
+                                                    <rect key="frame" x="0.0" y="0.0" width="179" height="173"/>
+                                                </imageView>
+                                                <view alpha="0.45000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TMh-lW-Six" userLabel="タイトル背景">
+                                                    <rect key="frame" x="0.0" y="0.0" width="179" height="30"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="oLq-6q-4v0"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#Wikiki Beach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKm-wC-K7N" userLabel="タイトル">
+                                                    <rect key="frame" x="5" y="0.0" width="125" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="dzM-aj-WS0"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1,000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4GP-JJ-9zg" userLabel="イイね数">
+                                                    <rect key="frame" x="120" y="0.0" width="51" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="51" id="VqB-eu-Wmz"/>
+                                                        <constraint firstAttribute="height" constant="30" id="oVB-Qd-uyR"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainMap-GenreGourmetOffButton" translatesAutoresizingMaskIntoConstraints="NO" id="alz-BP-Z9I" userLabel="イイネアイコン">
+                                                    <rect key="frame" x="120" y="8" width="15" height="15"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="15" id="Rhf-PV-dAt"/>
+                                                        <constraint firstAttribute="height" constant="15" id="uFQ-Dc-AE9"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="lmr-JQ-iCx" secondAttribute="bottom" id="2uu-AY-90A"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="alz-BP-Z9I" secondAttribute="trailing" constant="36" id="BEI-6c-iLo"/>
+                                            <constraint firstItem="TMh-lW-Six" firstAttribute="top" secondItem="As4-3g-Unk" secondAttribute="top" id="Byi-dj-Th3"/>
+                                            <constraint firstItem="lmr-JQ-iCx" firstAttribute="top" secondItem="As4-3g-Unk" secondAttribute="top" id="TxO-BM-9fq"/>
+                                            <constraint firstItem="alz-BP-Z9I" firstAttribute="top" secondItem="As4-3g-Unk" secondAttribute="topMargin" id="Zij-Ps-c88"/>
+                                            <constraint firstItem="4GP-JJ-9zg" firstAttribute="top" secondItem="As4-3g-Unk" secondAttribute="top" id="df5-8Q-rbW"/>
+                                            <constraint firstItem="TMh-lW-Six" firstAttribute="leading" secondItem="As4-3g-Unk" secondAttribute="leading" id="ewu-si-oCC"/>
+                                            <constraint firstItem="lmr-JQ-iCx" firstAttribute="leading" secondItem="As4-3g-Unk" secondAttribute="leading" id="hY8-m6-oDm"/>
+                                            <constraint firstAttribute="trailing" secondItem="lmr-JQ-iCx" secondAttribute="trailing" id="hkb-Gw-OwI"/>
+                                            <constraint firstItem="iKm-wC-K7N" firstAttribute="leading" secondItem="As4-3g-Unk" secondAttribute="leading" constant="5" id="lMH-yI-jK8"/>
+                                            <constraint firstItem="iKm-wC-K7N" firstAttribute="top" secondItem="As4-3g-Unk" secondAttribute="top" id="mdo-ee-Vcn"/>
+                                            <constraint firstItem="4GP-JJ-9zg" firstAttribute="trailing" secondItem="As4-3g-Unk" secondAttribute="trailingMargin" id="th0-pI-dXm"/>
+                                            <constraint firstAttribute="trailing" secondItem="TMh-lW-Six" secondAttribute="trailing" id="udR-ik-3Uo"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="iKm-wC-K7N" secondAttribute="trailing" constant="41" id="v7N-Qw-bXf"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="image" destination="lmr-JQ-iCx" id="VdK-1o-o4l"/>
+                                            <outlet property="title" destination="iKm-wC-K7N" id="wL2-da-ubi"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="EaD-9u-r3m" id="Fxp-N2-L0d"/>
+                                    <outlet property="delegate" destination="EaD-9u-r3m" id="2Xo-ZV-JiL"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OsB-rV-BEQ" firstAttribute="trailing" secondItem="vUf-of-dNV" secondAttribute="trailingMargin" id="1lN-dp-332"/>
+                            <constraint firstAttribute="trailing" secondItem="KPv-fU-kuD" secondAttribute="trailing" id="2cH-rr-QrE"/>
+                            <constraint firstItem="VNZ-o9-x0q" firstAttribute="top" secondItem="nrR-e2-dd0" secondAttribute="bottom" constant="8" id="3dC-t3-0Lj"/>
+                            <constraint firstItem="XIk-t2-nL4" firstAttribute="top" secondItem="phL-bd-Bg4" secondAttribute="bottom" id="4Oc-l6-9hN"/>
+                            <constraint firstAttribute="trailing" secondItem="phL-bd-Bg4" secondAttribute="trailing" id="5xE-oR-178"/>
+                            <constraint firstItem="XIk-t2-nL4" firstAttribute="top" secondItem="aSR-95-ldT" secondAttribute="bottom" id="AKC-mb-vqL"/>
+                            <constraint firstItem="wPo-K4-lcX" firstAttribute="leading" secondItem="vUf-of-dNV" secondAttribute="leading" id="AO0-XX-7qV"/>
+                            <constraint firstItem="dcs-zC-1Ea" firstAttribute="top" secondItem="Ow9-Jm-Y4C" secondAttribute="bottom" id="B3p-kp-hMM"/>
+                            <constraint firstItem="XIk-t2-nL4" firstAttribute="top" secondItem="wPo-K4-lcX" secondAttribute="bottom" id="BCw-om-BDi"/>
+                            <constraint firstItem="RPw-fu-CMg" firstAttribute="top" secondItem="OsB-rV-BEQ" secondAttribute="bottom" constant="8" id="Bt0-KD-UkJ"/>
+                            <constraint firstItem="M2J-J3-2O3" firstAttribute="top" secondItem="i1x-UD-L8J" secondAttribute="bottom" id="HAM-wK-oIF"/>
+                            <constraint firstItem="Ow9-Jm-Y4C" firstAttribute="top" secondItem="vUf-of-dNV" secondAttribute="topMargin" id="HER-Sy-6SP"/>
+                            <constraint firstItem="KPv-fU-kuD" firstAttribute="top" secondItem="XIk-t2-nL4" secondAttribute="bottom" id="K3H-2q-HXC"/>
+                            <constraint firstAttribute="trailing" secondItem="XIk-t2-nL4" secondAttribute="trailing" id="LFb-vG-XIO"/>
+                            <constraint firstItem="phL-bd-Bg4" firstAttribute="leading" secondItem="aSR-95-ldT" secondAttribute="trailing" id="RLS-cr-Du1"/>
+                            <constraint firstItem="XIk-t2-nL4" firstAttribute="leading" secondItem="vUf-of-dNV" secondAttribute="leading" id="U0n-vF-mKU"/>
+                            <constraint firstItem="phL-bd-Bg4" firstAttribute="leading" secondItem="aSR-95-ldT" secondAttribute="trailing" id="XHa-fB-NIO"/>
+                            <constraint firstAttribute="trailing" secondItem="Ow9-Jm-Y4C" secondAttribute="trailing" id="ZO6-Yg-S1h"/>
+                            <constraint firstItem="dcs-zC-1Ea" firstAttribute="top" secondItem="KPv-fU-kuD" secondAttribute="bottom" id="e1p-nN-udT"/>
+                            <constraint firstItem="aSR-95-ldT" firstAttribute="centerX" secondItem="vUf-of-dNV" secondAttribute="centerX" id="gT2-LH-QI9"/>
+                            <constraint firstItem="nrR-e2-dd0" firstAttribute="leading" secondItem="vUf-of-dNV" secondAttribute="leadingMargin" id="kX5-2X-tkB"/>
+                            <constraint firstItem="OsB-rV-BEQ" firstAttribute="top" secondItem="M2J-J3-2O3" secondAttribute="bottom" constant="8" id="mMr-X2-5ox"/>
+                            <constraint firstItem="aSR-95-ldT" firstAttribute="leading" secondItem="wPo-K4-lcX" secondAttribute="trailing" id="mQc-qM-zJR"/>
+                            <constraint firstItem="XIk-t2-nL4" firstAttribute="top" secondItem="phL-bd-Bg4" secondAttribute="bottom" id="mzz-fM-g9R"/>
+                            <constraint firstItem="KPv-fU-kuD" firstAttribute="leading" secondItem="vUf-of-dNV" secondAttribute="leading" id="qC9-ie-Xas"/>
+                            <constraint firstItem="VNZ-o9-x0q" firstAttribute="leading" secondItem="vUf-of-dNV" secondAttribute="leadingMargin" id="qyw-kr-GeH"/>
+                            <constraint firstItem="Ow9-Jm-Y4C" firstAttribute="leading" secondItem="vUf-of-dNV" secondAttribute="leading" id="s7J-nh-P8w"/>
+                            <constraint firstItem="M2J-J3-2O3" firstAttribute="trailing" secondItem="vUf-of-dNV" secondAttribute="trailingMargin" id="te1-Hy-RpG"/>
+                            <constraint firstItem="nrR-e2-dd0" firstAttribute="top" secondItem="i1x-UD-L8J" secondAttribute="bottom" id="u6e-iY-zjv"/>
+                            <constraint firstItem="aSR-95-ldT" firstAttribute="leading" secondItem="wPo-K4-lcX" secondAttribute="trailing" id="wrW-Uj-mKh"/>
+                            <constraint firstItem="RPw-fu-CMg" firstAttribute="trailing" secondItem="vUf-of-dNV" secondAttribute="trailingMargin" id="xQV-Zk-1Gw"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="KPv-fU-kuD" id="APi-d3-5uS"/>
+                        <outlet property="genreGourmetButton" destination="M2J-J3-2O3" id="S3A-HJ-djV"/>
+                        <outlet property="genreShoppingButton" destination="OsB-rV-BEQ" id="IMw-Wq-Vta"/>
+                        <outlet property="genreSpotButton" destination="RPw-fu-CMg" id="Dj4-IR-5UQ"/>
+                        <outlet property="layoutCollectionViewHeight" destination="IkX-Hs-WZW" id="QJe-bU-KiT"/>
+                        <outlet property="mapView" destination="Ow9-Jm-Y4C" id="a4K-qA-nZn"/>
+                        <outlet property="presentLocationButton" destination="VNZ-o9-x0q" id="aPB-9b-VWE"/>
+                        <outlet property="settingButton" destination="nrR-e2-dd0" id="FdI-lx-mo2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nOf-YI-ipx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="475" y="438"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="MainMap-GenreGourmetOffButton" width="44" height="44"/>
+        <image name="MainMap-GenreShoppingOffButton" width="44" height="44"/>
+        <image name="MainMap-GenreSpotOffButton" width="44" height="44"/>
+        <image name="MainMap-PresentLocationOffButton" width="44" height="44"/>
+        <image name="MainMap-SettingButton" width="44" height="44"/>
+    </resources>
 </document>

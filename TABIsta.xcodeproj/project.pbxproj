@@ -10,6 +10,9 @@
 		223BB9273345AD86B5135356 /* Pods_TABIstaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128CBD8977CBCAEF0F5314DE /* Pods_TABIstaTests.framework */; };
 		70863A38BC492E6829CABDF8 /* Pods_TABIstaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83485F228DFDE451771BF64 /* Pods_TABIstaUITests.framework */; };
 		8294A4D349511F5F001FC120 /* Pods_TABIsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D168FBE66633283F652CF7C8 /* Pods_TABIsta.framework */; };
+		8840C8F31CE9AAFE00A0DD4E /* MainMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840C8F21CE9AAFE00A0DD4E /* MainMapViewModel.swift */; };
+		8840C8F51CE9E5C000A0DD4E /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840C8F41CE9E5C000A0DD4E /* CustomCell.swift */; };
+		88416FBF1CEA9889000589D1 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 88416FBE1CEA9889000589D1 /* test.png */; };
 		88478C8B1CE3458C0028F81A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88478C8A1CE3458C0028F81A /* AppDelegate.swift */; };
 		88478C921CE3458C0028F81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88478C911CE3458C0028F81A /* Assets.xcassets */; };
 		88478C951CE3458C0028F81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88478C931CE3458C0028F81A /* LaunchScreen.storyboard */; };
@@ -62,6 +65,9 @@
 		32C93111CA15BEBFF379DF61 /* Pods-TABIsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABIsta.release.xcconfig"; path = "Pods/Target Support Files/Pods-TABIsta/Pods-TABIsta.release.xcconfig"; sourceTree = "<group>"; };
 		6A98740629BE937F935A8A48 /* Pods-TABIsta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABIsta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TABIsta/Pods-TABIsta.debug.xcconfig"; sourceTree = "<group>"; };
 		78190077CE5D6F94EA47FC2E /* Pods-TABIstaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABIstaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TABIstaUITests/Pods-TABIstaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8840C8F21CE9AAFE00A0DD4E /* MainMapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMapViewModel.swift; sourceTree = "<group>"; };
+		8840C8F41CE9E5C000A0DD4E /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		88416FBE1CEA9889000589D1 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		88478C871CE3458C0028F81A /* TABIsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TABIsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88478C8A1CE3458C0028F81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88478C911CE3458C0028F81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -211,6 +217,8 @@
 		888628AD1CE47376004F0E13 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				8840C8F21CE9AAFE00A0DD4E /* MainMapViewModel.swift */,
+				88416FBE1CEA9889000589D1 /* test.png */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				888628C21CE497FC004F0E13 /* MainMapViewController.swift */,
+				8840C8F41CE9E5C000A0DD4E /* CustomCell.swift */,
 				888628BA1CE4940F004F0E13 /* PhotoDetailViewController.swift */,
 				888628C41CE4986F004F0E13 /* PhotoPickupViewController.swift */,
 				888628C01CE496AF004F0E13 /* InitialDescriptionViewController.swift */,
@@ -436,6 +445,7 @@
 				885738831CEF16FF00061BEA /* GoogleService-Info.plist in Resources */,
 				88478C921CE3458C0028F81A /* Assets.xcassets in Resources */,
 				888628D11CE499E1004F0E13 /* Setting.Storyboard in Resources */,
+				88416FBF1CEA9889000589D1 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +598,8 @@
 				886031ED1CE5D9CB00614A3D /* GoogleAnalyticsManager.swift in Sources */,
 				886031E71CE575C000614A3D /* EntityDataManager.swift in Sources */,
 				886031E51CE56C8500614A3D /* ApiManager.swift in Sources */,
+				8840C8F31CE9AAFE00A0DD4E /* MainMapViewModel.swift in Sources */,
+				8840C8F51CE9E5C000A0DD4E /* CustomCell.swift in Sources */,
 				886031EF1CE5DBB700614A3D /* ApiDataManager.swift in Sources */,
 				88478C8B1CE3458C0028F81A /* AppDelegate.swift in Sources */,
 				888628C71CE498FC004F0E13 /* AboutViewController.swift in Sources */,
@@ -736,6 +748,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.dip.TABIsta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -749,6 +762,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.dip.TABIsta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

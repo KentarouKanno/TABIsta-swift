@@ -31,5 +31,9 @@ class SettingViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
 
 }
