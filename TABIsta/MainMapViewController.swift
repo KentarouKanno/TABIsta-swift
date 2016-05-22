@@ -18,9 +18,26 @@ class MainMapViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     @IBOutlet weak var collectionView: UICollectionView!    // 写真一覧
     @IBOutlet weak var settingButton: UIButton!             // 設定ボタン
     @IBOutlet weak var presentLocationButton: UIButton!     // 現在地ボタン
-    @IBOutlet weak var genreGourmetButton: UIButton!        // グルメボタン
-    @IBOutlet weak var genreShoppingButton: UIButton!       // ショッピングボタン
-    @IBOutlet weak var genreSpotButton: UIButton!           // スポットボタン
+    
+    @IBOutlet weak var genreGourmetButton: UIButton! {
+        didSet {
+            genreGourmetButton.setButtonImage(UIImage(assetIdentifier: .GourmetOff),
+                                              selected: UIImage(assetIdentifier: .GourmetOn))
+        }
+    } // グルメボタン
+    @IBOutlet weak var genreShoppingButton: UIButton! {
+        didSet {
+            genreShoppingButton.setButtonImage(UIImage(assetIdentifier: .ShoppingOff),
+                                               selected: UIImage(assetIdentifier: .ShoppingOn))
+        }
+        
+    } // ショッピングボタン
+    @IBOutlet weak var genreSpotButton: UIButton! {
+        didSet {
+            genreSpotButton.setButtonImage(UIImage(assetIdentifier: .SpotOff),
+                                           selected: UIImage(assetIdentifier: .SpotOn))
+        }
+    } // スポットボタン
     @IBOutlet weak var layoutCollectionViewHeight: NSLayoutConstraint!
     var locationManager:CLLocationManager!
     var collectionViewMaxHeight: CGFloat {
@@ -95,28 +112,14 @@ class MainMapViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         case TagType.gourmet.rawValue:
             // グルメボタン
             sender.selected = !sender.selected;
-            if (sender.selected) {
-                sender.setImage(UIImage(named: "MainMap-GenreGourmetOnButton"), forState: .Normal)
-            } else {
-                sender.setImage(UIImage(named: "MainMap-GenreGourmetOffButton"), forState: .Normal)
-            }
+            
         case TagType.shopping.rawValue:
             // ショッピングボタン
             sender.selected = !sender.selected;
-            if (sender.selected) {
-                sender.setImage(UIImage(named: "MainMap-GenreShoppingOnButton"), forState: .Normal)
-            } else {
-                sender.setImage(UIImage(named: "MainMap-GenreShoppingOffButton"), forState: .Normal)
-            }
-                
+            
         case TagType.spot.rawValue:
             // スポットボタン
             sender.selected = !sender.selected;
-            if (sender.selected) {
-                sender.setImage(UIImage(named: "MainMap-GenreSpotOnButton"), forState: .Normal)
-            } else {
-                sender.setImage(UIImage(named: "MainMap-GenreSpotOffButton"), forState: .Normal)
-            }
             
         default: break
         }

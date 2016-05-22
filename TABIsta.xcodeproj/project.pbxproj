@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		223BB9273345AD86B5135356 /* Pods_TABIstaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128CBD8977CBCAEF0F5314DE /* Pods_TABIstaTests.framework */; };
+		360925D31CF148AF00FB298F /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360925D11CF148AF00FB298F /* UIButton+Extension.swift */; };
+		360925D41CF148AF00FB298F /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360925D21CF148AF00FB298F /* UIImage+Extension.swift */; };
 		70863A38BC492E6829CABDF8 /* Pods_TABIstaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83485F228DFDE451771BF64 /* Pods_TABIstaUITests.framework */; };
 		8294A4D349511F5F001FC120 /* Pods_TABIsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D168FBE66633283F652CF7C8 /* Pods_TABIsta.framework */; };
 		8840C8F31CE9AAFE00A0DD4E /* MainMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840C8F21CE9AAFE00A0DD4E /* MainMapViewModel.swift */; };
@@ -63,6 +65,8 @@
 		128CBD8977CBCAEF0F5314DE /* Pods_TABIstaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TABIstaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F0A4039AA700494990060C /* Pods-TABIstaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABIstaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TABIstaTests/Pods-TABIstaTests.release.xcconfig"; sourceTree = "<group>"; };
 		32C93111CA15BEBFF379DF61 /* Pods-TABIsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABIsta.release.xcconfig"; path = "Pods/Target Support Files/Pods-TABIsta/Pods-TABIsta.release.xcconfig"; sourceTree = "<group>"; };
+		360925D11CF148AF00FB298F /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		360925D21CF148AF00FB298F /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		6A98740629BE937F935A8A48 /* Pods-TABIsta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABIsta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TABIsta/Pods-TABIsta.debug.xcconfig"; sourceTree = "<group>"; };
 		78190077CE5D6F94EA47FC2E /* Pods-TABIstaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABIstaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TABIstaUITests/Pods-TABIstaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8840C8F21CE9AAFE00A0DD4E /* MainMapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMapViewModel.swift; sourceTree = "<group>"; };
@@ -268,6 +272,8 @@
 		888628B21CE473B7004F0E13 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				360925D11CF148AF00FB298F /* UIButton+Extension.swift */,
+				360925D21CF148AF00FB298F /* UIImage+Extension.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -596,6 +602,8 @@
 				886031F11CE5E40200614A3D /* LoginViewController.swift in Sources */,
 				888628C31CE497FC004F0E13 /* MainMapViewController.swift in Sources */,
 				886031ED1CE5D9CB00614A3D /* GoogleAnalyticsManager.swift in Sources */,
+				360925D41CF148AF00FB298F /* UIImage+Extension.swift in Sources */,
+				360925D31CF148AF00FB298F /* UIButton+Extension.swift in Sources */,
 				886031E71CE575C000614A3D /* EntityDataManager.swift in Sources */,
 				886031E51CE56C8500614A3D /* ApiManager.swift in Sources */,
 				8840C8F31CE9AAFE00A0DD4E /* MainMapViewModel.swift in Sources */,
@@ -746,6 +754,7 @@
 				INFOPLIST_FILE = TABIsta/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = co.dip.TABIsta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -760,6 +769,7 @@
 				INFOPLIST_FILE = TABIsta/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = co.dip.TABIsta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
